@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>futurestrade.io</title>
+    <link rel="icon" href="favicon.ico">
+ 
+    <script src="assets\js\jquery.min.js"></script>
+</head>
+<body class="darker">
+
+<nav class="navbar navbar-expand-lg navbar-white fixed-top" id="banner">
+    <div class="container">
+        <a class="navbar-brand" href="index.htm"><span><img src="images\core\logo.png" alt="logo"></span> futurestrade.io</a>
+
+
+ 
+                <style>
+.lang {
+    display: block;
+    width: 70px;
+    position: relative;
+    z-index: 100;
+    text-align: left;
+    flex-shrink: 0;
+    -ms-flex-negative: 0;
+}
+.lang__current {
+    display: block;
+    width: 100%;
+    height: 30px;
+    position: relative;
+    line-height: 30px;
+    padding-left: 30px;
+    background: #fff;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 30%);
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #323232;
+    cursor: default;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+.lang.opened .lang__list {
+    display: block;
+}
+.lang__item img {
+    margin-right: 6px;
+    vertical-align: baseline;
+}
+.lang__list {
+    display: none;
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    background: #fff;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 30%);
+    border-radius: 2px;
+    position: absolute;
+    width: 100%;
+    margin-top: 5px;
+}
+.lang__item {
+    display: block;
+    width: 100%;
+    height: 28px;
+    padding-left: 9px;
+    line-height: 28px;
+    color: #323232;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: Arial,Helvetica,sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.lang__current:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 13px;
+    right: 7px;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #d0d0d0;
+}
+.lang.opened .lang__current:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 12px;
+    right: 7px;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: none;
+    border-bottom: 4px solid #d0d0d0;
+}
+.lang__current img {
+    display: block;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+}
+</style>
+<li class="lh-55px nav-link  d-none d-lg-block" onclick="toggleLang()" style="vertical-align: middle;">
+                <div class="header__lang nav-link">
+                    <div class="lang " id="langHD">
+                        <div class="lang__current">
+                                                        <img src="images\flags\en.png" style="width:16px" data-was-processed="true">EN
+                                                        </div>
+                        <div class="lang__list">
+                        <a class="lang__item" href="index-1.htm?lang=en">
+                        <img src="images\flags\en.png" style="width:16px" data-was-processed="true">EN
+                        </a>
+                        <a class="lang__item" href="index-2.htm?lang=ru">
+                        <img src="images\flags\ru.png" style="width:16px" data-was-processed="true">RU
+                        </a>
+                        <a class="lang__item" href="index-3.htm?lang=vn">
+                        <img src="images\flags\vn.png" style="width:16px" data-was-processed="true">VN
+                        </a>
+                        <a class="lang__item" href="index-4.htm?lang=it">
+                        <img src="images\flags\it.png" style="width:16px" data-was-processed="true">IT
+                        </a>
+                        <a class="lang__item" href="index-5.htm?lang=fr">
+                        <img src="images\flags\fr.png" style="width:16px" data-was-processed="true">FR
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                </li>
+
+
+<script>
+function toggleLang(){
+    $('#langHD').toggleClass('opened');
+}
+</script>
+
+                
+                <li class="lh-55px">
+                                    <a href="index-6.htm?a=login"><span class="btn login-btn ml-50 bold">Login</span></a>
+                                </li>
+                
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+
+</body>
+
+</html>
